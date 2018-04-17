@@ -47,7 +47,8 @@ namespace WebAppPB01Lab1_LucianoCosta.Controllers
         }
 
         // GET: Cliente/Create
-        [Route("cliente/cadastrar")]
+        [Route("cliente/cadastrar")]
+
         public IActionResult Create()
         {
             return View();
@@ -126,7 +127,8 @@ namespace WebAppPB01Lab1_LucianoCosta.Controllers
         }
 
         // GET: Cliente/Delete/5
-        [Route("cliente/remover/{id:int}")]
+        [Route("cliente/remover/{id:int}")]
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
